@@ -1,11 +1,18 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { RouterLink, RouterOutlet } from '@angular/router';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatSidenavModule } from '@angular/material/sidenav';
+import { MatListModule } from '@angular/material/list';
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, MatToolbarModule, MatSidenavModule],
+  imports: [
+    RouterOutlet,
+    RouterLink,
+    MatToolbarModule,
+    MatSidenavModule,
+    MatListModule,
+  ],
   template: `
     <mat-toolbar color="primary">
       <span>Angular 17 Control Flow Demo</span>
@@ -13,7 +20,13 @@ import { MatSidenavModule } from '@angular/material/sidenav';
     <mat-sidenav-container class="h-[calc(100vh-64px)]">
       <mat-sidenav [opened]="true" mode="side">
         <div class="w-32 m-2">
-          <h3>Menu</h3>
+
+          <h3 class="font-bold">NgIf -> &#64;if</h3>
+
+          <mat-nav-list>
+            <a mat-list-item routerLink="/ng-if">NgIf</a>
+            <a mat-list-item routerLink="/at-if">&#64;if</a>
+          </mat-nav-list>
         </div>
       </mat-sidenav>
       <mat-sidenav-content>
