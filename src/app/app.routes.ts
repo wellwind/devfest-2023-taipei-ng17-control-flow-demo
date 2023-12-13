@@ -40,6 +40,10 @@ export const routes: Routes = [
         path: 'trigger-when',
         loadComponent: () => import('./pages/defer/defer-trigger-when.component'),
       },
+      {
+        path: 'trigger-on-viewport',
+        loadComponent: () => import('./pages/defer/defer-trigger-on-viewport.component'),
+      },
     ],
   },
 ];
