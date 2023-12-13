@@ -9,4 +9,12 @@ export const routes: Routes = [
     path: 'at-if',
     loadComponent: () => import('./pages/at-if.component'),
   },
+  {
+    path: 'ng-for',
+    loadComponent: () => import('./pages/ng-for.component'),
+  },
+  {
+    path: 'at-for',
+    loadComponent: () => import('./pages/at-for.component'),
+  },
 ];
