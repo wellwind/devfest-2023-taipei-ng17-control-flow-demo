@@ -75,14 +75,14 @@ import { DemoComponent } from './demo.component';
 
     <mat-divider></mat-divider>
 
-    @defer(on viewport) {
-    <app-demo></app-demo>
+    @defer (on viewport) {
+      <app-demo></app-demo>
     } @placeholder (minimum 100ms) {
-    <p>Placeholder</p>
+      <p>Placeholder</p>
     } @loading (after 300ms; minimum 1s) {
-    <p>Loading...</p>
+      <p>Loading...</p>
     } @error {
-    <p>Failed to load demo</p>
+      <p>Failed to load demo</p>
     }
   `,
   styles: ``,

@@ -11,7 +11,7 @@ import { PageHeaderComponent } from '../page-header.component';
 
     <mat-list>
       @for (item of items; track item; let index = $index) {
-      <mat-list-item> ({{ index + 1 }}) {{ item }} </mat-list-item>
+        <mat-list-item> ({{ index + 1 }}) {{ item }} </mat-list-item>
       }
     </mat-list>
   `,

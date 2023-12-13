@@ -11,15 +11,17 @@ import { PageHeaderComponent } from '../page-header.component';
     <div>
       @switch (data) {
         @case ('1') {
-        <div>1</div>
-        } @case ('2') {
-        <div>2</div>
-        } @default {
-        <div>default</div>
+          <div>1</div>
+        }
+        @case ('2') {
+          <div>2</div>
+        }
+        @default {
+          <div>default</div>
         }
       }
     </div>
-  `
+  `,
 })
 export default class AtSwitchComponent {
   data = '1';

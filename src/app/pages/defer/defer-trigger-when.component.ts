@@ -15,17 +15,17 @@ import { DemoComponent } from './demo.component';
     </button>
 
     <div class="block m-2">
-      @defer(when display) {
-      <app-demo></app-demo>
+      @defer (when display) {
+        <app-demo></app-demo>
       } @placeholder (minimum 100ms) {
-      <p>Placeholder</p>
+        <p>Placeholder</p>
       } @loading (after 300ms; minimum 1s) {
-      <p>Loading...</p>
+        <p>Loading...</p>
       } @error {
-      <p>Failed to load demo</p>
+        <p>Failed to load demo</p>
       }
     </div>
-  `
+  `,
 })
 export default class DeferTriggerWhenComponent {
   display = false;

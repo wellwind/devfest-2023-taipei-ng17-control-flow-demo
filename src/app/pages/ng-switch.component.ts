@@ -14,7 +14,7 @@ import { PageHeaderComponent } from '../page-header.component';
       <div *ngSwitchCase="'2'">2</div>
       <div *ngSwitchDefault>default</div>
     </div>
-  `
+  `,
 })
 export default class NgSwitchComponent {
   data = '1';
