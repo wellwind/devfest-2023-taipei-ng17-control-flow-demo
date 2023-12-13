@@ -17,4 +17,12 @@ export const routes: Routes = [
     path: 'at-for',
     loadComponent: () => import('./pages/at-for.component'),
   },
+  {
+    path: 'ng-switch',
+    loadComponent: () => import('./pages/ng-switch.component'),
+  },
+  {
+    path: 'at-switch',
+    loadComponent: () => import('./pages/at-switch.component'),
+  },
 ];

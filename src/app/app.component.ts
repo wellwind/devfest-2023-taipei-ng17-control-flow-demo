@@ -33,6 +33,13 @@ import { MatListModule } from '@angular/material/list';
             <a mat-list-item routerLink="/ng-for">NgFor</a>
             <a mat-list-item routerLink="/at-for">&#64;for</a>
           </mat-nav-list>
+
+          <h3 class="font-bold">NgSwitch -> &#64;switch</h3>
+
+          <mat-nav-list>
+            <a mat-list-item routerLink="/ng-switch">NgSwitch</a>
+            <a mat-list-item routerLink="/at-switch">&#64;switch</a>
+          </mat-nav-list>
         </div>
       </mat-sidenav>
       <mat-sidenav-content>
