@@ -45,6 +45,7 @@ import { MatListModule } from '@angular/material/list';
           <mat-nav-list>
             <a mat-list-item routerLink="/defer/basic">Basic Usage</a>
             <a mat-list-item routerLink="/defer/blocks">Blocks</a>
+            <a mat-list-item routerLink="/defer/trigger-when">Triggers: when</a>
           </mat-nav-list>
         </div>
       </mat-sidenav>

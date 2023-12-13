@@ -36,6 +36,10 @@ export const routes: Routes = [
         path: 'blocks',
         loadComponent: () => import('./pages/defer/defer-blocks.component'),
       },
+      {
+        path: 'trigger-when',
+        loadComponent: () => import('./pages/defer/defer-trigger-when.component'),
+      },
     ],
   },
 ];
