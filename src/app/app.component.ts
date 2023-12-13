@@ -19,7 +19,7 @@ import { MatListModule } from '@angular/material/list';
     </mat-toolbar>
     <mat-sidenav-container class="h-[calc(100vh-64px)]">
       <mat-sidenav [opened]="true" mode="side">
-        <div class="w-32 m-2">
+        <div class="w-48 m-2">
           <h3 class="font-bold">NgIf -> &#64;if</h3>
 
           <mat-nav-list>
@@ -39,6 +39,11 @@ import { MatListModule } from '@angular/material/list';
           <mat-nav-list>
             <a mat-list-item routerLink="/ng-switch">NgSwitch</a>
             <a mat-list-item routerLink="/at-switch">&#64;switch</a>
+          </mat-nav-list>
+
+          <h3 class="font-bold">&#64;defer</h3>
+          <mat-nav-list>
+            <a mat-list-item routerLink="/defer/basic">Basic Usage</a>
           </mat-nav-list>
         </div>
       </mat-sidenav>

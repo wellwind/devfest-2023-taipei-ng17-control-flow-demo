@@ -25,4 +25,13 @@ export const routes: Routes = [
     path: 'at-switch',
     loadComponent: () => import('./pages/at-switch.component'),
   },
+  {
+    path: 'defer',
+    children: [
+      {
+        path: 'basic',
+        loadComponent: () => import('./pages/defer/defer-basic.component'),
+      },
+    ],
+  },
 ];
