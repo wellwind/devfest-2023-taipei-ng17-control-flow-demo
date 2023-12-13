@@ -32,6 +32,10 @@ export const routes: Routes = [
         path: 'basic',
         loadComponent: () => import('./pages/defer/defer-basic.component'),
       },
+      {
+        path: 'blocks',
+        loadComponent: () => import('./pages/defer/defer-blocks.component'),
+      },
     ],
   },
 ];
