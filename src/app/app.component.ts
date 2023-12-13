@@ -24,20 +24,10 @@ import { MatListModule } from '@angular/material/list';
           <h3 class="font-bold">NgIf -> &#64;if</h3>
 
           <mat-nav-list>
-            <a
-              mat-list-item
-              routerLinkActive="pl-2"
-              [routerLinkActiveOptions]="{ exact: true }"
-              routerLink="/ng-if"
-            >
+            <a mat-list-item routerLinkActive="pl-2" routerLink="/ng-if">
               NgIf
             </a>
-            <a
-              mat-list-item
-              routerLinkActive="pl-2"
-              [routerLinkActiveOptions]="{ exact: true }"
-              routerLink="/at-if"
-            >
+            <a mat-list-item routerLinkActive="pl-2" routerLink="/at-if">
               &#64;if
             </a>
           </mat-nav-list>
@@ -45,20 +35,10 @@ import { MatListModule } from '@angular/material/list';
           <h3 class="font-bold">NgFor -> &#64;for</h3>
 
           <mat-nav-list>
-            <a
-              mat-list-item
-              routerLinkActive="pl-2"
-              [routerLinkActiveOptions]="{ exact: true }"
-              routerLink="/ng-for"
-            >
+            <a mat-list-item routerLinkActive="pl-2" routerLink="/ng-for">
               NgFor
             </a>
-            <a
-              mat-list-item
-              routerLinkActive="pl-2"
-              [routerLinkActiveOptions]="{ exact: true }"
-              routerLink="/at-for"
-            >
+            <a mat-list-item routerLinkActive="pl-2" routerLink="/at-for">
               &#64;for
             </a>
           </mat-nav-list>
@@ -66,46 +46,25 @@ import { MatListModule } from '@angular/material/list';
           <h3 class="font-bold">NgSwitch -> &#64;switch</h3>
 
           <mat-nav-list>
-            <a
-              mat-list-item
-              routerLinkActive="pl-2"
-              [routerLinkActiveOptions]="{ exact: true }"
-              routerLink="/ng-switch"
-            >
+            <a mat-list-item routerLinkActive="pl-2" routerLink="/ng-switch">
               NgSwitch
             </a>
-            <a
-              mat-list-item
-              routerLinkActive="pl-2"
-              [routerLinkActiveOptions]="{ exact: true }"
-              routerLink="/at-switch"
-            >
+            <a mat-list-item routerLinkActive="pl-2" routerLink="/at-switch">
               &#64;switch
             </a>
           </mat-nav-list>
 
           <h3 class="font-bold">&#64;defer</h3>
           <mat-nav-list>
-            <a
-              mat-list-item
-              routerLinkActive="pl-2"
-              [routerLinkActiveOptions]="{ exact: true }"
-              routerLink="/defer/basic"
-            >
+            <a mat-list-item routerLinkActive="pl-2" routerLink="/defer/basic">
               Basic Usage
             </a>
-            <a
-              mat-list-item
-              routerLinkActive="pl-2"
-              [routerLinkActiveOptions]="{ exact: true }"
-              routerLink="/defer/blocks"
-            >
+            <a mat-list-item routerLinkActive="pl-2" routerLink="/defer/blocks">
               Blocks
             </a>
             <a
               mat-list-item
               routerLinkActive="pl-2"
-              [routerLinkActiveOptions]="{ exact: true }"
               routerLink="/defer/trigger-when"
             >
               Triggers: when
@@ -113,10 +72,16 @@ import { MatListModule } from '@angular/material/list';
             <a
               mat-list-item
               routerLinkActive="pl-2"
-              [routerLinkActiveOptions]="{ exact: true }"
               routerLink="/defer/trigger-on-viewport"
             >
               Triggers: on viewport
+            </a>
+            <a
+              mat-list-item
+              routerLinkActive="pl-2"
+              routerLink="/defer/trigger-on-hover"
+            >
+              Triggers: on hover
             </a>
           </mat-nav-list>
         </div>

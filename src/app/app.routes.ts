@@ -44,6 +44,10 @@ export const routes: Routes = [
         path: 'trigger-on-viewport',
         loadComponent: () => import('./pages/defer/defer-trigger-on-viewport.component'),
       },
+      {
+        path: 'trigger-on-hover',
+        loadComponent: () => import('./pages/defer/defer-trigger-on-hover.component'),
+      },
     ],
   },
 ];
