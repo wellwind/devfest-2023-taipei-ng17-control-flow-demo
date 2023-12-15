@@ -6,6 +6,10 @@ export const routes: Routes = [
     loadComponent: () => import('./pages/after-render/after-render.component'),
   },
   {
+    path: 'boolean-attribute',
+    loadComponent: () => import('./pages/boolean-attribute/boolean-attribute.component'),
+  },
+  {
     path: 'control-flow',
     children: [
       {

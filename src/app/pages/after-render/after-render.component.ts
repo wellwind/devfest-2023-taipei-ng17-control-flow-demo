@@ -1,4 +1,9 @@
-import { AfterViewInit, Component, afterNextRender, afterRender } from '@angular/core';
+import {
+  AfterViewInit,
+  Component,
+  afterNextRender,
+  afterRender,
+} from '@angular/core';
 import { MatButtonModule } from '@angular/material/button';
 import { PageHeaderComponent } from '../../page-header.component';
 import { ChildComponent } from './child.component';
@@ -6,7 +11,7 @@ import { ChildComponent } from './child.component';
 @Component({
   selector: 'app-after-render',
   standalone: true,
-  imports: [MatButtonModule,PageHeaderComponent, ChildComponent],
+  imports: [MatButtonModule, PageHeaderComponent, ChildComponent],
   template: `
     <app-page-header>
       afterRender & afterNextRender & ngAfterViewInit

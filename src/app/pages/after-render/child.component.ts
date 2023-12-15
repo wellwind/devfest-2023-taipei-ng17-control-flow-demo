@@ -1,4 +1,9 @@
-import { AfterViewInit, Component, afterNextRender, afterRender } from '@angular/core';
+import {
+  AfterViewInit,
+  Component,
+  afterNextRender,
+  afterRender,
+} from '@angular/core';
 import { MatButtonModule } from '@angular/material/button';
 
 @Component({
@@ -11,7 +16,6 @@ import { MatButtonModule } from '@angular/material/button';
       Counter: {{ counter }}
     </button>
   `,
-  styles: ``,
 })
 export class ChildComponent implements AfterViewInit {
   counter = 0;

@@ -20,22 +20,38 @@ import { RouterLink, RouterLinkActive, RouterOutlet } from '@angular/router';
     </mat-toolbar>
     <mat-sidenav-container class="h-[calc(100vh-64px)]">
       <mat-sidenav [opened]="true" mode="side">
-        <div class="w-56 m-2">
+        <div class="w-62 m-2">
           <h3 class="font-bold">afterRender & afterNextRender</h3>
+
           <mat-nav-list>
             <a mat-list-item routerLinkActive="pl-2" routerLink="/after-render">
-            afterRender & afterNextRender
+              afterRender & afterNextRender
             </a>
+          </mat-nav-list>
 
+          <h3 class="font-bold">boolean attribute</h3>
+
+          <mat-nav-list>
+            <a mat-list-item routerLinkActive="pl-2" routerLink="/boolean-attribute">
+              boolean attribute
+            </a>
           </mat-nav-list>
 
           <h3 class="font-bold">NgIf -> &#64;if</h3>
 
           <mat-nav-list>
-            <a mat-list-item routerLinkActive="pl-2" routerLink="/control-flow/ng-if">
+            <a
+              mat-list-item
+              routerLinkActive="pl-2"
+              routerLink="/control-flow/ng-if"
+            >
               NgIf
             </a>
-            <a mat-list-item routerLinkActive="pl-2" routerLink="/control-flow/at-if">
+            <a
+              mat-list-item
+              routerLinkActive="pl-2"
+              routerLink="/control-flow/at-if"
+            >
               &#64;if
             </a>
           </mat-nav-list>
@@ -43,10 +59,18 @@ import { RouterLink, RouterLinkActive, RouterOutlet } from '@angular/router';
           <h3 class="font-bold">NgFor -> &#64;for</h3>
 
           <mat-nav-list>
-            <a mat-list-item routerLinkActive="pl-2" routerLink="/control-flow/ng-for">
+            <a
+              mat-list-item
+              routerLinkActive="pl-2"
+              routerLink="/control-flow/ng-for"
+            >
               NgFor
             </a>
-            <a mat-list-item routerLinkActive="pl-2" routerLink="/control-flow/at-for">
+            <a
+              mat-list-item
+              routerLinkActive="pl-2"
+              routerLink="/control-flow/at-for"
+            >
               &#64;for
             </a>
           </mat-nav-list>
@@ -54,10 +78,18 @@ import { RouterLink, RouterLinkActive, RouterOutlet } from '@angular/router';
           <h3 class="font-bold">NgSwitch -> &#64;switch</h3>
 
           <mat-nav-list>
-            <a mat-list-item routerLinkActive="pl-2" routerLink="/control-flow/ng-switch">
+            <a
+              mat-list-item
+              routerLinkActive="pl-2"
+              routerLink="/control-flow/ng-switch"
+            >
               NgSwitch
             </a>
-            <a mat-list-item routerLinkActive="pl-2" routerLink="/control-flow/at-switch">
+            <a
+              mat-list-item
+              routerLinkActive="pl-2"
+              routerLink="/control-flow/at-switch"
+            >
               &#64;switch
             </a>
           </mat-nav-list>
