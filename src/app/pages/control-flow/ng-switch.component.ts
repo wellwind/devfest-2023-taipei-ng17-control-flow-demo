@@ -1,6 +1,6 @@
 import { NgSwitch, NgSwitchCase, NgSwitchDefault } from '@angular/common';
 import { Component } from '@angular/core';
-import { PageHeaderComponent } from '../page-header.component';
+import { PageHeaderComponent } from '../../page-header.component';
 
 @Component({
   selector: 'app-ng-switch',

@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { MatButtonModule } from '@angular/material/button';
-import { PageHeaderComponent } from '../page-header.component';
+import { PageHeaderComponent } from '../../page-header.component';
 
 @Component({
   selector: 'app-at-if',

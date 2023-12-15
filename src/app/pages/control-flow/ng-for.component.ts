@@ -1,7 +1,7 @@
 import { NgFor } from '@angular/common';
 import { Component } from '@angular/core';
 import { MatListModule } from '@angular/material/list';
-import { PageHeaderComponent } from '../page-header.component';
+import { PageHeaderComponent } from '../../page-header.component';
 
 @Component({
   selector: 'app-ng-for',
